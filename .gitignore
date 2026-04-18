@@ -1,0 +1,15 @@
+# Ignore security keys and environments
+.streamlit/
+secrets.toml
+.env
+
+# Ignore old prototype files
+data.json
+migrate.py
+
+# Ignore python caches
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
